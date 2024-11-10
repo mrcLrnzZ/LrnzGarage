@@ -1,0 +1,155 @@
+style.css
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+nav{
+    width: 100%;
+    background-image: url(Elements/carbon\ lodi.jpg);
+    overflow: hidden;
+    position: fixed;
+    box-shadow: 0 10px 50px rgb(0, 0, 0);
+    top: 0;
+    z-index: 10;
+
+}
+
+nav .Logo img {
+    width: 130px; 
+    height: auto; 
+    margin-top: 13px; 
+    margin-left: 10px;
+    border: none;
+    
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+nav ul li {
+    
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+
+nav ul li:hover {
+    transform: scale(30px);
+    opacity: 1;
+    background-color: rgb(233, 0, 0);
+}
+
+li{
+    float: right;
+    text-align: center;
+}
+
+.nav-text{
+    padding: 30px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1,h3{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#section1{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.table{
+  padding-top: 15%;
+  width:100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+td{
+  min-width: 100px;
+  word-wrap: break-word;
+}
+
+.mid{
+  width: 79%;
+}
+
+.footer {
+  position:absolute;
+  margin-bottom: 100%;
+  width: 100%;
+  background-image: url(Elements/carbon\ lodi.jpg);
+  min-height: 10px;
+  display: table-footer-group;
+  justify-content: center;
+  align-content:end;
+  flex-direction: column;
+  box-shadow: 0px -10px 100px rgb(0, 0, 0);
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 1s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    transform: scale(30px);
+    opacity: 1;
+    background-color: rgb(243, 0, 0);
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+ 
+ 
